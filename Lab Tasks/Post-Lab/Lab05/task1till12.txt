@@ -1,37 +1,37 @@
 
-#1. Create a directory called project in the home directory.
+1. Create a directory called project in the home directory.
 mkdir -p ~/project
 
-#2. Navigate to the project directory.
+2. Navigate to the project directory.
 cd ~/project || exit
 
-# 3. Create an empty file named task1.txt.
+3. Create an empty file named task1.txt.
 touch task1.txt
 
-# 4. List all files and create a file called file1.txt.
+4. List all files and create a file called file1.txt.
 ls
 touch file1.txt
 
-# 5. Change permissions so only the owner can read/write, no permissions for others.
+5. Change permissions so only the owner can read/write, no permissions for others.
 chmod 600 file1.txt
 
-# 6. Check the permissions of file1.txt.
+6. Check the permissions of file1.txt.
 ls -l file1.txt
 
-# 7. Grant execute permissions to the owner.
+7. Grant execute permissions to the owner.
 chmod u+x file1.txt
 
-# 8. Display the current working directory.
+8. Display the current working directory.
 pwd
 
-# 9. Show the current date and time.
+9. Show the current date and time.
 date
 
-# 10. Display system disk usage.
+10. Display system disk usage.
 df -h
 
-# 11. Display system uptime.
+11. Display system uptime.
 uptime
 
-# 12. Show all users currently logged in.
+12. Show all users currently logged in.
 who
